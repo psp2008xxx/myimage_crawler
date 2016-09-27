@@ -26,5 +26,5 @@ class ImageSpider(scrapy.Spider):
     def parse(self, response):
         for link in response.xpath('//a'):
             item = MyimageCrwalerItem()
-            item['image_urls'] = link.xpath('img[re.test(@src, "jpg$")]/@src').extract()
+            item['image_urls'] = link.xpath('img/@src').re(r'.*jpg$')
             yield item
