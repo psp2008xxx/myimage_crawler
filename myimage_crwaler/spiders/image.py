@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import re
+from scrapy.linkextractors import LinkExtractor
 from myimage_crwaler.items import MyimageCrwalerItem
 
 hdr = {
@@ -16,7 +16,7 @@ class ImageSpider(scrapy.Spider):
     name = "image"
     allowed_domains = ["netbian.com"]
     start_urls = (
-        'http://www.netbian.com',
+        'http://www.netbian.com/jianzhu/',
     )
 
     def start_requests(self):
@@ -24,7 +24,9 @@ class ImageSpider(scrapy.Spider):
             yield scrapy.Request(url, headers=hdr)
 
     def parse(self, response):
-        for link in response.xpath('//a'):
-            item = MyimageCrwalerItem()
-            item['image_urls'] = link.xpath('img/@src').re(r'.*jpg$')
-            yield item
+        # for link in response.xpath('//a'):
+        #     item = MyimageCrwalerItem()
+            # item['image_urls'] = link.xpath('img/@src').re(r'.*jpg$')
+        item = MyimageCrwalerItem()
+        item['image_urls'] = response.xpath('//*/@data-src').extract()
+        yield item
