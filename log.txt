@@ -1,0 +1,1741 @@
+2016-09-27 10:57:41 [scrapy] INFO: Scrapy 1.1.1 started (bot: myimage_crwaler)
+2016-09-27 10:57:41 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'myimage_crwaler.spiders', 'SPIDER_MODULES': ['myimage_crwaler.spiders'], 'LOG_FILE': 'log.txt', 'BOT_NAME': 'myimage_crwaler'}
+2016-09-27 10:57:41 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-09-27 10:57:41 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-09-27 10:57:41 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-09-27 10:57:41 [scrapy] INFO: Enabled item pipelines:
+['myimage_crwaler.pipelines.MyimageCrwalerPipeline']
+2016-09-27 10:57:41 [scrapy] INFO: Spider opened
+2016-09-27 10:57:41 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 10:57:41 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-09-27 10:57:57 [scrapy] DEBUG: Crawled (200) <GET http://www.netbian.com> (referer: None)
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/f2df0ed23d240aef6161ebf058b6da5e.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/cb0c9ecdb3caf7fc58c67a09480f3a2d.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/f110d7b3280316430b717c4392e01923.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/7e8cfa384f14d6d06a5777dc2044b1c8.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/4849c708e3495646ac5fff1d58b3133e.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/4702f54832d0d572bb794311d459432c.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0922/0e24486a93454d59b3d1917455271d7a.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/38b3fb6f3fcf88c51b22284ea4b76c59.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/9e916cf88c499689d22319dbef271a66.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/5dc6174df07900206103279e02c21771.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/20150308/12df84307e695d19fb515767fff938f8.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/90542f3ef902c2ef7ea2ac943c34fcb7.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/034498b9ec1daa422bc1bed570d57bcd.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/cff8fcc0f7ade966a2f5b1fa9888f085.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/93f0e6ef7e36a5d3748098cd187b93fb.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/cf9db8e2ac8ec1fff3a98e31291b0003.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/31305f8560a9d4e4ca52be950f2c485e.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/0d1c96950dc1d863bfd136b0af765281.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0922/78eed7d7438653450fa549ba41823473.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/4737ee460b7b8d612c5d6175c19a4e76.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/77e77cf04178720e95d3a7e2ea9ba693.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/31d629ffece407ae4ac7e9e0f9503ac0.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/20150308/29e525d88a3219aff3ee101739b12c85.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/3f20f9caae57623f303ded10b29ff080.jpg']}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': []}
+2016-09-27 10:57:58 [scrapy] INFO: Closing spider (finished)
+2016-09-27 10:57:58 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 360,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 26632,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 9, 27, 2, 57, 58, 127000),
+ 'item_scraped_count': 213,
+ 'log_count/DEBUG': 215,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 9, 27, 2, 57, 41, 549000)}
+2016-09-27 10:57:58 [scrapy] INFO: Spider closed (finished)
+2016-09-27 11:09:40 [scrapy] INFO: Scrapy 1.1.1 started (bot: myimage_crwaler)
+2016-09-27 11:09:40 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'myimage_crwaler.spiders', 'SPIDER_MODULES': ['myimage_crwaler.spiders'], 'LOG_FILE': 'log.txt', 'BOT_NAME': 'myimage_crwaler'}
+2016-09-27 11:09:40 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-09-27 11:09:41 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-09-27 11:09:41 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-09-27 11:09:41 [scrapy] INFO: Enabled item pipelines:
+['myimage_crwaler.pipelines.MyimageCrwalerPipeline']
+2016-09-27 11:09:41 [scrapy] INFO: Spider opened
+2016-09-27 11:09:41 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:09:41 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-09-27 11:09:57 [scrapy] DEBUG: Crawled (200) <GET http://www.netbian.com> (referer: None)
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:09:57 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:10:53 [scrapy] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:11:30 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/f2df0ed23d240aef6161ebf058b6da5e.jpg> (referer: None)
+2016-09-27 11:11:30 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/f2df0ed23d240aef6161ebf058b6da5e.jpg> referred in <None>
+2016-09-27 11:11:44 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/cb0c9ecdb3caf7fc58c67a09480f3a2d.jpg> (referer: None)
+2016-09-27 11:11:44 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/cb0c9ecdb3caf7fc58c67a09480f3a2d.jpg> referred in <None>
+2016-09-27 11:11:44 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/f2df0ed23d240aef6161ebf058b6da5e.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:11:44 [scrapy] INFO: Crawled 3 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:11:57 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0916/cb0c9ecdb3caf7fc58c67a09480f3a2d.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:12:10 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/7e8cfa384f14d6d06a5777dc2044b1c8.jpg> (referer: None)
+2016-09-27 11:12:10 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/7e8cfa384f14d6d06a5777dc2044b1c8.jpg> referred in <None>
+2016-09-27 11:12:10 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/f110d7b3280316430b717c4392e01923.jpg> (referer: None)
+2016-09-27 11:12:10 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/f110d7b3280316430b717c4392e01923.jpg> referred in <None>
+2016-09-27 11:12:23 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/4849c708e3495646ac5fff1d58b3133e.jpg> (referer: None)
+2016-09-27 11:12:23 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/4849c708e3495646ac5fff1d58b3133e.jpg> referred in <None>
+2016-09-27 11:12:23 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/7e8cfa384f14d6d06a5777dc2044b1c8.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:12:23 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/f110d7b3280316430b717c4392e01923.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:12:37 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/4702f54832d0d572bb794311d459432c.jpg> (referer: None)
+2016-09-27 11:12:37 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/4702f54832d0d572bb794311d459432c.jpg> referred in <None>
+2016-09-27 11:12:37 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/4849c708e3495646ac5fff1d58b3133e.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:12:50 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0922/0e24486a93454d59b3d1917455271d7a.jpg> (referer: None)
+2016-09-27 11:12:50 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0922/0e24486a93454d59b3d1917455271d7a.jpg> referred in <None>
+2016-09-27 11:12:50 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/4702f54832d0d572bb794311d459432c.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:12:50 [scrapy] INFO: Crawled 8 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:13:03 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/38b3fb6f3fcf88c51b22284ea4b76c59.jpg> (referer: None)
+2016-09-27 11:13:03 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/38b3fb6f3fcf88c51b22284ea4b76c59.jpg> referred in <None>
+2016-09-27 11:13:03 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0922/0e24486a93454d59b3d1917455271d7a.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:13:16 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/9e916cf88c499689d22319dbef271a66.jpg> (referer: None)
+2016-09-27 11:13:16 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/9e916cf88c499689d22319dbef271a66.jpg> referred in <None>
+2016-09-27 11:13:16 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/38b3fb6f3fcf88c51b22284ea4b76c59.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:13:30 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/5dc6174df07900206103279e02c21771.jpg> (referer: None)
+2016-09-27 11:13:30 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/5dc6174df07900206103279e02c21771.jpg> referred in <None>
+2016-09-27 11:13:30 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/9e916cf88c499689d22319dbef271a66.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:13:43 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/20150308/12df84307e695d19fb515767fff938f8.jpg> (referer: None)
+2016-09-27 11:13:43 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/20150308/12df84307e695d19fb515767fff938f8.jpg> referred in <None>
+2016-09-27 11:13:43 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/034498b9ec1daa422bc1bed570d57bcd.jpg> (referer: None)
+2016-09-27 11:13:43 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/034498b9ec1daa422bc1bed570d57bcd.jpg> referred in <None>
+2016-09-27 11:13:43 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0916/5dc6174df07900206103279e02c21771.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:13:43 [scrapy] INFO: Crawled 13 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:13:56 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/90542f3ef902c2ef7ea2ac943c34fcb7.jpg> (referer: None)
+2016-09-27 11:13:56 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/90542f3ef902c2ef7ea2ac943c34fcb7.jpg> referred in <None>
+2016-09-27 11:13:56 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/20150308/12df84307e695d19fb515767fff938f8.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:13:56 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/034498b9ec1daa422bc1bed570d57bcd.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:14:10 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/cff8fcc0f7ade966a2f5b1fa9888f085.jpg> (referer: None)
+2016-09-27 11:14:10 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/cff8fcc0f7ade966a2f5b1fa9888f085.jpg> referred in <None>
+2016-09-27 11:14:10 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/90542f3ef902c2ef7ea2ac943c34fcb7.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:14:23 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/93f0e6ef7e36a5d3748098cd187b93fb.jpg> (referer: None)
+2016-09-27 11:14:23 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/93f0e6ef7e36a5d3748098cd187b93fb.jpg> referred in <None>
+2016-09-27 11:14:23 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0916/cff8fcc0f7ade966a2f5b1fa9888f085.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:14:37 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/cf9db8e2ac8ec1fff3a98e31291b0003.jpg> (referer: None)
+2016-09-27 11:14:37 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/cf9db8e2ac8ec1fff3a98e31291b0003.jpg> referred in <None>
+2016-09-27 11:14:37 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/93f0e6ef7e36a5d3748098cd187b93fb.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:14:49 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/31305f8560a9d4e4ca52be950f2c485e.jpg> (referer: None)
+2016-09-27 11:14:49 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/31305f8560a9d4e4ca52be950f2c485e.jpg> referred in <None>
+2016-09-27 11:14:49 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/cf9db8e2ac8ec1fff3a98e31291b0003.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:14:49 [scrapy] INFO: Crawled 18 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:15:02 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/0d1c96950dc1d863bfd136b0af765281.jpg> (referer: None)
+2016-09-27 11:15:02 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/0d1c96950dc1d863bfd136b0af765281.jpg> referred in <None>
+2016-09-27 11:15:02 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/31305f8560a9d4e4ca52be950f2c485e.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:16 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0922/78eed7d7438653450fa549ba41823473.jpg> (referer: None)
+2016-09-27 11:15:16 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0922/78eed7d7438653450fa549ba41823473.jpg> referred in <None>
+2016-09-27 11:15:16 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/0d1c96950dc1d863bfd136b0af765281.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/4737ee460b7b8d612c5d6175c19a4e76.jpg> (referer: None)
+2016-09-27 11:15:16 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/4737ee460b7b8d612c5d6175c19a4e76.jpg> referred in <None>
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:15:16 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0922/78eed7d7438653450fa549ba41823473.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:16 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/4737ee460b7b8d612c5d6175c19a4e76.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:17 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/31d629ffece407ae4ac7e9e0f9503ac0.jpg> (referer: None)
+2016-09-27 11:15:17 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/31d629ffece407ae4ac7e9e0f9503ac0.jpg> referred in <None>
+2016-09-27 11:15:17 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0916/31d629ffece407ae4ac7e9e0f9503ac0.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:17 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/77e77cf04178720e95d3a7e2ea9ba693.jpg> (referer: None)
+2016-09-27 11:15:17 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/77e77cf04178720e95d3a7e2ea9ba693.jpg> referred in <None>
+2016-09-27 11:15:18 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/77e77cf04178720e95d3a7e2ea9ba693.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:18 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/3f20f9caae57623f303ded10b29ff080.jpg> (referer: None)
+2016-09-27 11:15:18 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/3f20f9caae57623f303ded10b29ff080.jpg> referred in <None>
+2016-09-27 11:15:18 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/20150308/29e525d88a3219aff3ee101739b12c85.jpg> (referer: None)
+2016-09-27 11:15:18 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/20150308/29e525d88a3219aff3ee101739b12c85.jpg> referred in <None>
+2016-09-27 11:15:18 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/2016/0927/3f20f9caae57623f303ded10b29ff080.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:18 [scrapy] ERROR: Error processing {'image_urls': [u'http://img.netbian.com/file/20150308/29e525d88a3219aff3ee101739b12c85.jpg']}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\kuni\myimage_crwaler\myimage_crwaler\pipelines.py", line 21, in item_completed
+    item['image'] = image_paths
+  File "c:\python27\lib\site-packages\scrapy\item.py", line 63, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'MyimageCrwalerItem does not support field: image'
+2016-09-27 11:15:18 [scrapy] INFO: Closing spider (finished)
+2016-09-27 11:15:18 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 8182,
+ 'downloader/request_count': 25,
+ 'downloader/request_method_count/GET': 25,
+ 'downloader/response_bytes': 2337261,
+ 'downloader/response_count': 25,
+ 'downloader/response_status_count/200': 25,
+ 'file_count': 24,
+ 'file_status_count/downloaded': 24,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 9, 27, 3, 15, 18, 256000),
+ 'item_dropped_count': 189,
+ 'item_dropped_reasons_count/DropItem': 189,
+ 'log_count/DEBUG': 50,
+ 'log_count/ERROR': 24,
+ 'log_count/INFO': 12,
+ 'log_count/WARNING': 189,
+ 'response_received_count': 25,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 9, 27, 3, 9, 41, 702000)}
+2016-09-27 11:15:18 [scrapy] INFO: Spider closed (finished)
+2016-09-27 11:21:24 [scrapy] INFO: Scrapy 1.1.1 started (bot: myimage_crwaler)
+2016-09-27 11:21:24 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'myimage_crwaler.spiders', 'SPIDER_MODULES': ['myimage_crwaler.spiders'], 'LOG_FILE': 'log.txt', 'BOT_NAME': 'myimage_crwaler'}
+2016-09-27 11:21:24 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-09-27 11:21:24 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-09-27 11:21:24 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-09-27 11:21:24 [scrapy] INFO: Enabled item pipelines:
+['myimage_crwaler.pipelines.MyimageCrwalerPipeline']
+2016-09-27 11:21:24 [scrapy] INFO: Spider opened
+2016-09-27 11:21:24 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:21:24 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-09-27 11:21:39 [scrapy] DEBUG: Crawled (200) <GET http://www.netbian.com> (referer: None)
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:39 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:21:40 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:22:35 [scrapy] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2016-09-27 11:23:13 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/f2df0ed23d240aef6161ebf058b6da5e.jpg> (referer: None)
+2016-09-27 11:23:13 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/f2df0ed23d240aef6161ebf058b6da5e.jpg> referred in <None>
+2016-09-27 11:23:26 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/cb0c9ecdb3caf7fc58c67a09480f3a2d.jpg> (referer: None)
+2016-09-27 11:23:26 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/cb0c9ecdb3caf7fc58c67a09480f3a2d.jpg> referred in <None>
+2016-09-27 11:23:26 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/f2df0ed23d240aef6161ebf058b6da5e.jpg'],
+ 'images': ['full/b45ba18f4b12d3af0299fcbf394f8e675a8347bb.jpg']}
+2016-09-27 11:23:26 [scrapy] INFO: Crawled 3 pages (at 2 pages/min), scraped 1 items (at 1 items/min)
+2016-09-27 11:23:41 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/cb0c9ecdb3caf7fc58c67a09480f3a2d.jpg'],
+ 'images': ['full/4970fcc607dafe6248d2df3c5a7594ea817cb99d.jpg']}
+2016-09-27 11:23:54 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/7e8cfa384f14d6d06a5777dc2044b1c8.jpg> (referer: None)
+2016-09-27 11:23:54 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/7e8cfa384f14d6d06a5777dc2044b1c8.jpg> referred in <None>
+2016-09-27 11:23:54 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/f110d7b3280316430b717c4392e01923.jpg> (referer: None)
+2016-09-27 11:23:54 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/f110d7b3280316430b717c4392e01923.jpg> referred in <None>
+2016-09-27 11:24:09 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/4849c708e3495646ac5fff1d58b3133e.jpg> (referer: None)
+2016-09-27 11:24:09 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/4849c708e3495646ac5fff1d58b3133e.jpg> referred in <None>
+2016-09-27 11:24:09 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/7e8cfa384f14d6d06a5777dc2044b1c8.jpg'],
+ 'images': ['full/ff81274a4e4d65e7cc1ac0129baf83a68af42258.jpg']}
+2016-09-27 11:24:09 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/f110d7b3280316430b717c4392e01923.jpg'],
+ 'images': ['full/3ce1da80408dcc75daf7b770c1f29680748ede54.jpg']}
+2016-09-27 11:24:22 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/4702f54832d0d572bb794311d459432c.jpg> (referer: None)
+2016-09-27 11:24:22 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/4702f54832d0d572bb794311d459432c.jpg> referred in <None>
+2016-09-27 11:24:22 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/4849c708e3495646ac5fff1d58b3133e.jpg'],
+ 'images': ['full/743d343ee9b5eae888e2fa3a7596f61506deb4a9.jpg']}
+2016-09-27 11:24:34 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0922/0e24486a93454d59b3d1917455271d7a.jpg> (referer: None)
+2016-09-27 11:24:34 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0922/0e24486a93454d59b3d1917455271d7a.jpg> referred in <None>
+2016-09-27 11:24:34 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/4702f54832d0d572bb794311d459432c.jpg'],
+ 'images': ['full/bdc597b41f50413d73a19312125b03f674e12f5b.jpg']}
+2016-09-27 11:24:34 [scrapy] INFO: Crawled 8 pages (at 5 pages/min), scraped 6 items (at 5 items/min)
+2016-09-27 11:24:47 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/38b3fb6f3fcf88c51b22284ea4b76c59.jpg> (referer: None)
+2016-09-27 11:24:47 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/38b3fb6f3fcf88c51b22284ea4b76c59.jpg> referred in <None>
+2016-09-27 11:24:47 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0922/0e24486a93454d59b3d1917455271d7a.jpg'],
+ 'images': ['full/8775d6d7dd649370afa3e2558ae0f0755b9a6af9.jpg']}
+2016-09-27 11:25:04 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/9e916cf88c499689d22319dbef271a66.jpg> (referer: None)
+2016-09-27 11:25:04 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/9e916cf88c499689d22319dbef271a66.jpg> referred in <None>
+2016-09-27 11:25:04 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/38b3fb6f3fcf88c51b22284ea4b76c59.jpg'],
+ 'images': ['full/7f01ce2b267377c0f561f08c235b1fd075824d4c.jpg']}
+2016-09-27 11:25:17 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/5dc6174df07900206103279e02c21771.jpg> (referer: None)
+2016-09-27 11:25:17 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/5dc6174df07900206103279e02c21771.jpg> referred in <None>
+2016-09-27 11:25:18 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/9e916cf88c499689d22319dbef271a66.jpg'],
+ 'images': ['full/b0094ba7983a21510ba8e3ad6c17a14cc2a0e126.jpg']}
+2016-09-27 11:25:30 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/034498b9ec1daa422bc1bed570d57bcd.jpg> (referer: None)
+2016-09-27 11:25:30 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/034498b9ec1daa422bc1bed570d57bcd.jpg> referred in <None>
+2016-09-27 11:25:30 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/20150308/12df84307e695d19fb515767fff938f8.jpg> (referer: None)
+2016-09-27 11:25:30 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/20150308/12df84307e695d19fb515767fff938f8.jpg> referred in <None>
+2016-09-27 11:25:30 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/5dc6174df07900206103279e02c21771.jpg'],
+ 'images': ['full/025dfca063b04bb44e923ccc497db0600487c9e0.jpg']}
+2016-09-27 11:25:30 [scrapy] INFO: Crawled 13 pages (at 5 pages/min), scraped 10 items (at 4 items/min)
+2016-09-27 11:25:44 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/90542f3ef902c2ef7ea2ac943c34fcb7.jpg> (referer: None)
+2016-09-27 11:25:44 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/90542f3ef902c2ef7ea2ac943c34fcb7.jpg> referred in <None>
+2016-09-27 11:25:44 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/034498b9ec1daa422bc1bed570d57bcd.jpg'],
+ 'images': ['full/a92dc5cbb4378d37abc607604d3ff850b7c1e8a3.jpg']}
+2016-09-27 11:25:44 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/20150308/12df84307e695d19fb515767fff938f8.jpg'],
+ 'images': ['full/38b32b767045314c8a4d135c98e10b46963a8a7b.jpg']}
+2016-09-27 11:25:56 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/cff8fcc0f7ade966a2f5b1fa9888f085.jpg> (referer: None)
+2016-09-27 11:25:56 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/cff8fcc0f7ade966a2f5b1fa9888f085.jpg> referred in <None>
+2016-09-27 11:25:56 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/90542f3ef902c2ef7ea2ac943c34fcb7.jpg'],
+ 'images': ['full/890256c875653e46413d7c5e42c1b6ef2d04d511.jpg']}
+2016-09-27 11:26:09 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/93f0e6ef7e36a5d3748098cd187b93fb.jpg> (referer: None)
+2016-09-27 11:26:09 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/93f0e6ef7e36a5d3748098cd187b93fb.jpg> referred in <None>
+2016-09-27 11:26:09 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/cff8fcc0f7ade966a2f5b1fa9888f085.jpg'],
+ 'images': ['full/bec520b0119f3563f61a299e3aea681ea5c35290.jpg']}
+2016-09-27 11:26:22 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/cf9db8e2ac8ec1fff3a98e31291b0003.jpg> (referer: None)
+2016-09-27 11:26:22 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/cf9db8e2ac8ec1fff3a98e31291b0003.jpg> referred in <None>
+2016-09-27 11:26:22 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/31305f8560a9d4e4ca52be950f2c485e.jpg> (referer: None)
+2016-09-27 11:26:22 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/31305f8560a9d4e4ca52be950f2c485e.jpg> referred in <None>
+2016-09-27 11:26:22 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/93f0e6ef7e36a5d3748098cd187b93fb.jpg'],
+ 'images': ['full/3591048754dfb7880c2b6b6275e2a77317216ecc.jpg']}
+2016-09-27 11:26:35 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/cf9db8e2ac8ec1fff3a98e31291b0003.jpg'],
+ 'images': ['full/97a51bf0498fa701473527d97d189354c00d24ed.jpg']}
+2016-09-27 11:26:35 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/31305f8560a9d4e4ca52be950f2c485e.jpg'],
+ 'images': ['full/42a50e9923c7c5681099610e2bc10c53f70190f1.jpg']}
+2016-09-27 11:26:35 [scrapy] INFO: Crawled 18 pages (at 5 pages/min), scraped 17 items (at 7 items/min)
+2016-09-27 11:26:47 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/0d1c96950dc1d863bfd136b0af765281.jpg> (referer: None)
+2016-09-27 11:26:47 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/0d1c96950dc1d863bfd136b0af765281.jpg> referred in <None>
+2016-09-27 11:27:00 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0922/78eed7d7438653450fa549ba41823473.jpg> (referer: None)
+2016-09-27 11:27:00 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0922/78eed7d7438653450fa549ba41823473.jpg> referred in <None>
+2016-09-27 11:27:00 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/0d1c96950dc1d863bfd136b0af765281.jpg'],
+ 'images': ['full/779e538d7d8783609d1e6ad33446cdd4fd521ab0.jpg']}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/4737ee460b7b8d612c5d6175c19a4e76.jpg> (referer: None)
+2016-09-27 11:27:00 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/4737ee460b7b8d612c5d6175c19a4e76.jpg> referred in <None>
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] WARNING: Dropped: Item contains no images
+{'image_urls': []}
+2016-09-27 11:27:00 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0922/78eed7d7438653450fa549ba41823473.jpg'],
+ 'images': ['full/43a317a9c79624756e2f8b1163dd38d5ea9d3572.jpg']}
+2016-09-27 11:27:00 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/4737ee460b7b8d612c5d6175c19a4e76.jpg'],
+ 'images': ['full/a858a06baddc3d17129c4cac2ec5b0052cd06f72.jpg']}
+2016-09-27 11:27:01 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0916/31d629ffece407ae4ac7e9e0f9503ac0.jpg> (referer: None)
+2016-09-27 11:27:01 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0916/31d629ffece407ae4ac7e9e0f9503ac0.jpg> referred in <None>
+2016-09-27 11:27:02 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0916/31d629ffece407ae4ac7e9e0f9503ac0.jpg'],
+ 'images': ['full/332e74ba4189fca44519b3d098aa1a564ae35b84.jpg']}
+2016-09-27 11:27:02 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/77e77cf04178720e95d3a7e2ea9ba693.jpg> (referer: None)
+2016-09-27 11:27:02 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/77e77cf04178720e95d3a7e2ea9ba693.jpg> referred in <None>
+2016-09-27 11:27:02 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/20150308/29e525d88a3219aff3ee101739b12c85.jpg> (referer: None)
+2016-09-27 11:27:02 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/20150308/29e525d88a3219aff3ee101739b12c85.jpg> referred in <None>
+2016-09-27 11:27:02 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/77e77cf04178720e95d3a7e2ea9ba693.jpg'],
+ 'images': ['full/3e216ca4e2b412042bec5f8da5e1b0272fc14221.jpg']}
+2016-09-27 11:27:02 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/20150308/29e525d88a3219aff3ee101739b12c85.jpg'],
+ 'images': ['full/1871be86d5d03094d6d657fa0c5b464ec4432a4d.jpg']}
+2016-09-27 11:27:02 [scrapy] DEBUG: Crawled (200) <GET http://img.netbian.com/file/2016/0927/3f20f9caae57623f303ded10b29ff080.jpg> (referer: None)
+2016-09-27 11:27:02 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://img.netbian.com/file/2016/0927/3f20f9caae57623f303ded10b29ff080.jpg> referred in <None>
+2016-09-27 11:27:02 [scrapy] DEBUG: Scraped from <200 http://www.netbian.com>
+{'image_urls': [u'http://img.netbian.com/file/2016/0927/3f20f9caae57623f303ded10b29ff080.jpg'],
+ 'images': ['full/d5da1094ef923d48cf5de82c1d03cde9ee443437.jpg']}
+2016-09-27 11:27:02 [scrapy] INFO: Closing spider (finished)
+2016-09-27 11:27:02 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 8182,
+ 'downloader/request_count': 25,
+ 'downloader/request_method_count/GET': 25,
+ 'downloader/response_bytes': 2337333,
+ 'downloader/response_count': 25,
+ 'downloader/response_status_count/200': 25,
+ 'file_count': 24,
+ 'file_status_count/downloaded': 24,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 9, 27, 3, 27, 2, 658000),
+ 'item_dropped_count': 190,
+ 'item_dropped_reasons_count/DropItem': 190,
+ 'item_scraped_count': 24,
+ 'log_count/DEBUG': 74,
+ 'log_count/INFO': 12,
+ 'log_count/WARNING': 190,
+ 'response_received_count': 25,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 9, 27, 3, 21, 24, 707000)}
+2016-09-27 11:27:02 [scrapy] INFO: Spider closed (finished)
