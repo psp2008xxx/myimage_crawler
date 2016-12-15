@@ -1,3 +1,4 @@
+Add by kuni 2016-12-15
 2016-09-27 10:57:41 [scrapy] INFO: Scrapy 1.1.1 started (bot: myimage_crwaler)
 2016-09-27 10:57:41 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'myimage_crwaler.spiders', 'SPIDER_MODULES': ['myimage_crwaler.spiders'], 'LOG_FILE': 'log.txt', 'BOT_NAME': 'myimage_crwaler'}
 2016-09-27 10:57:41 [scrapy] INFO: Enabled extensions:
